@@ -24,4 +24,10 @@ public class UserDto
     private String email;
     @NotEmpty(message = "Password should not be empty")
     private String password;
+    private String PhoneNumber;
+    private Boolean Active;
+    private String Region;
+    private int Age;
+    private Boolean MarketingAgreement;
+
 }
