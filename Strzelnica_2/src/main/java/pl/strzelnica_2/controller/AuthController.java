@@ -30,6 +30,7 @@ public class AuthController {
         return "index";
     }
     // handler method to handle user registration form request
+
     @GetMapping("/register")
     public String showRegistrationForm(Model model){
         // create model object to store form data
@@ -71,6 +72,9 @@ public class AuthController {
         return "login";
     }
 
-
+    @GetMapping("/calender")
+    public String calender(){
+        return "calender";
+    }
 }
 

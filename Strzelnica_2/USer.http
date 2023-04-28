@@ -9,5 +9,8 @@ Content-Type: application/json
 
 }
 
+###
+# @no-redirect
+GET http://localhost:8888/calender/?trace=true&message=true
 
 
